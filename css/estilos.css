@@ -1,0 +1,204 @@
+
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 990px) {}
+
+@media (min-width: 991px) {}
+
+
+
+
+.proyectosterminados{
+    margin: 0%;
+    padding: 0%;
+
+}
+.proyectosenventa{
+    margin: 0%;
+    padding: 0%; 
+
+
+}
+.sobrenosotros{
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+
+.fondogris{ /* titulo del inicio */
+    background-color: grey;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align:center;
+margin: 0%;
+padding: 0%;
+
+
+
+
+}
+
+
+
+
+
+
+
+.fotoinicio{ 
+    display: flex;
+    justify-content: center;
+}
+
+.footercolor{
+    background-color: gray;
+}
+ .footerproyectosterminados{
+    position: absolute;
+    bottom: 0;
+    background-color: gray;
+ }
+.footerproyectosenventa{
+background-color: gray;
+}
+
+.footersobrenosotros{
+    background-color: grey;
+}
+
+
+
+/* esta separado por seccion de pagina con sus titulos y sus fotos ,mas abajo voy a poner seccion de textos y voy a alinear todos los textos */
+
+
+
+
+
+.proyectosterminados{
+background-color: grey;
+font-size: 30px;
+font-family: sans-serif;
+text-align: center;
+}
+.fotosproyectosterminados{
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+.proyectosenventa{ 
+    background-color: grey;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.fotosproyectoenventa1{
+    display: flex;
+    justify-content: center;
+}
+
+
+#nomesaliaylotuvequeusar {
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+height: 500px;
+width: 500px;
+}
+
+   #x2 {
+    display: block;
+width: 1000px;
+height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+   } 
+
+
+
+.sobrenosotros{
+background-color: gray;
+font-size: 30px;
+font-family: sans-serif;
+text-align: center;
+}
+.fotosilvi{
+display: flex;
+justify-content: center;
+}
+
+
+.contacto{
+    background-color: gray;
+    ;
+font-size: 30px;
+text-align: center;
+}
+
+/* alineacion de los textos */
+
+.textoindex{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textoproyectoterminado{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textoproyectosenventa{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textosobrenosotros{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.listas{
+    background-color: gray;
+    list-style: none;
+list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+.listasdeproyectosterminados{
+    background-color: gray;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+
+
+.contenedor{
+    display: grid; /* primer paso */
+    grid-template-columns:  1fr ;
+    grid-template-rows:  0,2fr 0,2fr 0,3fr 0,2fr 10.2fr 0,3fr ;
+}
+
+  .contenedorcontacto{
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: gray;
+    
+  }
+
+  .listasdecontacto{
+    list-style-type: none;
+margin: 0%;
+padding: 0%;
+text-align: center;
+  }
